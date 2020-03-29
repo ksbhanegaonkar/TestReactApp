@@ -5,7 +5,10 @@ import TaskBarItem from './TaskBarItem';
 
 class TaskBar extends Component {
   state={
-    taskBarItems:["abc","def","ijk","lmn","abc","def","ijk","lmn","abc","def","ijk","lmn"]
+    taskBarItems:["abc","def","ijk","lmn","abc","def","ijk","lmn","abc","def","ijk","lmn",
+    "abc","def","ijk","lmn","abc","def","ijk","lmn","abc","def","ijk","lmn",
+    "abc","def","ijk","lmn","abc","def","ijk","lmn","abc","def","ijk","lmn",
+    "abc","def","ijk","lmn","abc"]
     
   }
 
@@ -29,7 +32,7 @@ class TaskBar extends Component {
     <div className="container mw-100">
       <div className="row">
       {this.renderTaskBarItems()}
-      {this.renderTaskBarItems()}
+     
       </div>
       
     </div>
