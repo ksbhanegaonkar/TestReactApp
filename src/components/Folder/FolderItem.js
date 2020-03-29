@@ -18,7 +18,7 @@ class FolderItem extends Component {
 
   render(){
   return (
-        <div></div>
+        <div className="folder-item">{this.props.name}</div>
   );
   }
 

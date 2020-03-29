@@ -5,10 +5,7 @@ import TaskBarItem from './TaskBarItem';
 
 class TaskBar extends Component {
   state={
-    taskBarItems:["abc","def","ijk","lmn","abc","def","ijk","lmn","abc","def","ijk","lmn",
-    "abc","def","ijk","lmn","abc","def","ijk","lmn","abc","def","ijk","lmn",
-    "abc","def","ijk","lmn","abc","def","ijk","lmn","abc","def","ijk","lmn",
-    "abc","def","ijk","lmn","abc"]
+    taskBarItems:["abc","def","ijk","lmn"]
     
   }
 
@@ -20,7 +17,7 @@ class TaskBar extends Component {
   renderTaskBarItems(){
     return this.state.taskBarItems.map((item)=>{
       return (
-      <div className="col-1">
+      <div className="col-1" key={item}>
           <TaskBarItem name={item}></TaskBarItem>
       </div>
      );
