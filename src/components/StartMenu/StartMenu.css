@@ -1,0 +1,14 @@
+
+.start-button{
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    background-image: linear-gradient(white, blue);
+    
+}
+.start-button:hover{
+    background: rgb(187, 187, 236);
+}
