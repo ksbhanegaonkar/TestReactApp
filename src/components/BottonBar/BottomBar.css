@@ -1,8 +1,8 @@
 .my-container-bottom-bar{
     border: 5px solid yellow;
     position: fixed;
-    top: 95%;
-    height: 5%;
+    bottom: 0%;
+    
     
 }
 

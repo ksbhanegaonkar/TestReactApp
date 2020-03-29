@@ -1,0 +1,24 @@
+.task-bar-item-active{
+    border: 2px solid green;
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(rgb(0, 248, 33), rgb(247, 244, 233));
+}
+
+.task-bar-item-inactive{
+    border: 2px solid green;
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(rgb(248, 244, 0), rgb(247, 244, 233));
+}
+
+
+
+.task-bar-item-active:hover{
+    background: rgb(233, 250, 3);
+}
+
+.task-bar-item-inactive:hover{
+    background: rgb(4, 243, 4);
+}
+   

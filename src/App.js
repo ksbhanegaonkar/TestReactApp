@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import {BrowserRouter as Router,NavLink,Redirect,Route,Switch,Link } from 'react-router-dom';
 import './App.css';
-import WelcomePage from './components/WelcomePage/WelcomePage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Desktop from './components/Desktop/Desktop';
 
